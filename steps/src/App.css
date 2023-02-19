@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+
+
+.main-window{
+  
+}
+
+.upblock{
+  text-align: left;
+}
+
+.uplabel{
+  margin-right: 90px;
+}
+
+.downblock{
+  margin-left: -55px;
+}
+
+.input{
+  height: 25px;
+  margin-right: 30px;
+  border-radius: 8px;
+}
+
+.info-header{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.infoLabel{
+  margin-right: 80px;
+}
+
+.data{
+  margin-left: -50px;
+  border-radius: 12px;
+  border: 2px solid wheat;
+}
+
+.registerString{
+  list-style-type: none;
+}
+
+.registerinput{
+  margin-right: 30px;
+}
+
+.infobtn{
+  margin-right: 30px;
+  border: none;
+  background-color: #ffffff00;
+}
+
+.infobtn:hover{
+  cursor: pointer;
+}
+
+.registerinput{
+  border: none;
+  background-color: #ffffff00;
+}

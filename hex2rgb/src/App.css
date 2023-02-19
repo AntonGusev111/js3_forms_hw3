@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.color{
+  width: 130px;
+  height: 35px;
+}
+
+.ansdiv{
+  border: 1px solid black;
+  margin-top: 5px;
+  height: 35px;
+  background-color: rgba(1, 1, 49, 0.473);
+
+}

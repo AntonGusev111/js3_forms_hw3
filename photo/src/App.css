@@ -1,0 +1,60 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.CTS{
+  position: absolute;
+  background-color: blue;
+  text-align: center;
+  line-height:50px;
+  border: 1px solid wheat;
+  width: 300px;
+  height: 50px;
+  pointer-events: none;
+}
+
+.fileInput {
+  overflow: hidden;
+  margin-left: -75px;
+  width: 300px;
+  height: 50px;
+  background-color: wheat;
+}
+
+.upload-imgs{
+  display: flex;
+  margin-top: 25px;
+  margin-left: -75px;
+  width: 450px;
+  height: 200px;
+  border: 1px dashed wheat;
+}
+
+.imgPrev{
+  border: 1px dotted yellow;
+  margin: 10px 10px;
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.delete-img{
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  color: black;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.356);
+  margin-left: -20px;
+}
+
+.delete-img:hover{
+  cursor: pointer;
+}
+
+.delete-img:active{
+  background-color: brown;
+}

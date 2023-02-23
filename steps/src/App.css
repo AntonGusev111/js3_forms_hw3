@@ -70,3 +70,16 @@
   border: none;
   background-color: #ffffff00;
 }
+
+.editRow{
+  display: flex
+}
+
+.registerDateRow{
+  margin-left: 20px;
+}
+
+.registerDistRow{
+  margin-left: 180px;
+  margin-right: 110px;
+}

@@ -13,7 +13,7 @@ export default function StepsForm() {
     const [table, setTable] = useState(initialTable);
     const [inputValues, setInputValues] = useState({
         date:'',
-        dist:''
+        dist:'',
     })
 
     const redactTable = (row) =>{
@@ -65,12 +65,13 @@ export default function StepsForm() {
        
     };
 
-    const handleRowDell = (obj)=>{
 
+
+    const handleRowDell = (obj)=>{
         if (obj['action'] == 'edit'){
             setInputValues({
                 date:obj['key'],
-                dist:obj['dist']
+                dist:obj['dist'],
             });
         };
 
@@ -85,7 +86,7 @@ export default function StepsForm() {
     
 
   return (
-    <div class='main-window'>
+    <div className='main-window'>
         <StepsInput onChange = {handleRowChage} values={inputValues}/>
         <div className="info">
             <div className="info-header">
